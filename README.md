@@ -1,10 +1,10 @@
-# Afreen's Library
+# Afreen's Digital Library
 
 Afreen's Library is a shared digital bookshelf. Anyone with the link can browse the shelves. The owner signs in to manage books they have already read. Visitors can suggest books for the To Be Read shelf.
 
 The interface is a hand-drawn library: a welcome door, wooden shelves, and flat colored spines. Book details, covers, and descriptions come from [Open Library](https://openlibrary.org). The shared collection lives in Supabase, and the site is a static Vite app hosted on Vercel.
 
-This project was built using Cursor Pro for the MLH Hacktoberfest.
+This project was built using Cursor Pro for the MLH Global Hack Week: Hacktoberfest.
 
 ## Stack
 
