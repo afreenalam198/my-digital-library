@@ -1,8 +1,8 @@
 import { createClient } from "@supabase/supabase-js";
 import { normalizeBook, normalizePatch } from "./bookFields.js";
 
-const url = import.meta.env.VITE_SUPABASE_URL;
-const key = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const url = import.meta.env.SUPABASE_URL;
+const key = import.meta.env.SUPABASE_KEY;
 
 export function isSupabaseConfigured() {
   return Boolean(url && key);
